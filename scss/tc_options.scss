@@ -1,0 +1,34 @@
+.clear {
+	clear: both;
+	float: none;
+}
+.tc-options-one-third {
+	width: 28%;
+	float: left;
+	padding: 5px;
+}
+
+.tc_color_options {
+	width: 200px;
+}
+
+.tc-color-picker {
+	@extend .clear;
+	width: 200px;
+	padding: 5px;
+	label {
+		float: left;
+	}
+	input {
+		float: right;
+	}
+}
+
+.credit-permission {
+	width: 400px;
+	padding:10px;
+}
+
+tc-logos {
+	text_align:center;
+}
